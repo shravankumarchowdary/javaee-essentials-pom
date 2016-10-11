@@ -16,12 +16,12 @@
          <properties>
          <distributionManagement>
           <repository>
-                   <id>snapshots</id>
-                   <url>https:</url>
+                   <id>releases</id>
+                   <url>http://localhost:8088/repository/maven-releases/</url>
           </repository>
            <snapshotRepository>
                     <id>snapshot</id>
-                    <url> </url>
+                    <url>http://localhost:8088/repository/maven-snapshots/</url>
                   </snapshotRepository>
                   </distributionManagement>
     <build>
